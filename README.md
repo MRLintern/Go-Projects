@@ -21,3 +21,9 @@ Two methods:
         $ go build
         test main.go go.mod
         $ ./test
+        
+        
+ ## Further Resources for Building Go Applications
+ 
+ This [link](https://www.digitalocean.com/community/tutorials/how-to-build-and-install-go-programs) provides good examples
+ of building and running go applications within the Linux environment.
