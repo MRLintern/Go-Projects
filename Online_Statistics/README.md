@@ -1,6 +1,6 @@
 ## Online Statistics
 
-## Intoduction
+## Introduction
 
 This is a web application that asks users to enter a list of numbers.
 The application will then perform some statistical calculations, such as
