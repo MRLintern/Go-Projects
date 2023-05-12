@@ -11,9 +11,13 @@ Each project is sorted into its own repository so look at the `README.md` files 
 ## Running/building the Application
 
 Two methods:
-
+        
+        $ mkdir test && cd test
+        $ go mod init test
         $ go run .
         
-         or
+         or, by building go binaries
          
         $ go build
+        test main.go go.mod
+        $ ./test
