@@ -115,7 +115,7 @@ func processRequest(request *http.Request) ([]float64, string, bool) {
     return numbers, "", true
 }
 
-//function allows us display the results online
+//function allows us to display the results online
 func formatStats(stats statistics) string {
 
     return fmt.Sprintf(`<table border="1">
@@ -139,14 +139,16 @@ func getStats(numbers []float64) (stats statistics) {
     //numbers need to sorted in ascending order
     sort.Float64s(stats.numbers)
 
+    //calculate average
     stats.average = sum(numbers) / float64(len(numbers))
-
+    
+    //calculate median
     stats.median = median(numbers)
 
     return stats
 }
 
-//function to iterate over the numbers produce the sum of these numbers
+//function to iterate over the numbers and produce the sum of these numbers
 func sum(numbers []float64) (total float64) {
 
     for _, x := range numbers {
