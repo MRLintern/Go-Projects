@@ -12,7 +12,7 @@ numbers entered.
 		$ git clone https://github.com/MRLintern/Go-Projects/tree/main/Online_Statistics.git
 		$ go run .
 
-		Open a new browser and type in the following URL: http://localhost:9001
+Open a new browser and type in the following URL: http://localhost:9001
 
 Enter the numbers and click calculate.
 
