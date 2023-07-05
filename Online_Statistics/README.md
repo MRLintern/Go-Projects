@@ -14,9 +14,9 @@ numbers entered.
 
 		Open a new browser and type in the following URL: http://localhost:9001
 
-		Enter the numbers and click calcullate.
+Enter the numbers and click calcullate.
 
-		Once you're done with the application, close it at the command line.
+Once you're done with the application, close it at the command line.
 
 		$ CTRL + C
 
